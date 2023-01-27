@@ -27,7 +27,7 @@
       color: $color1;
       padding: 7px 30px 7px 30px ;
       border-radius: 6px;
-      border-color: #2889f0;
+      border: none;
       cursor: pointer;
       margin-left: 3px;
       font-size: 18px;
@@ -225,6 +225,7 @@
     align-items: center;
     background: #f8f9fa;
     position: relative;
+    margin-top: 50px;
   
     h2{
       width: 100%;
@@ -309,6 +310,7 @@
       padding: 9px 30px 9px 30px ;
       border-radius: 6px;
       box-shadow: none;
+      border: none;
       border-color: #2889f0;
       cursor: pointer;
       margin-left: 3px;
