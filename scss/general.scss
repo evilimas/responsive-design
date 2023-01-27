@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+  }
+  body{
+    background-color: #f8f9fa;
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    // margin-left: 100px;
+  }

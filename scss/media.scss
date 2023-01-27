@@ -1,0 +1,231 @@
+@media (max-width: 1000px){
+    // html {
+    //     font-size: 12px;
+    // }
+  }
+  @media (max-width: 768px){
+  
+    body{
+      padding: 0;
+      margin: 0;
+      width: 100% !important;
+      
+    }
+  
+  
+    header{
+      font-size: 1.5em
+    }
+    .first{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      height: 500px;
+  
+  
+      h2{
+        width: 80%;
+      }
+      
+      
+      button{
+        margin-top: 10px;
+        width: 90%;
+      }
+  
+      input{
+        width: 90%;
+        
+      }
+      
+    }
+    .second{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      margin-top: 270px;
+      margin-bottom: 270px;
+      gap: 70px;
+  
+      div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+       
+      }
+  
+    }
+    
+    .third{
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+      text-align: center;
+      display: flex;
+      width: 100%;
+      height: 100%;
+  
+      div:first-child{
+        width: 100%;
+        height: 350px;
+        margin-top: 70px;
+        text-align: start;
+        margin-right: 100px;
+        p{
+          font-size: 1.4em;
+        }
+  
+        h2{
+          font-size: 2em
+        }
+      }
+  
+  
+      div:last-child{
+        width: 100%;
+      }
+  
+    }
+    .forth{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      display: flex;
+      width: 100%;
+      height: 100%;
+  
+      div:last-child{
+        width: 100%;
+        height: 350px;
+        margin-top: 70px;
+        margin-right: 100px;
+        text-align: start;
+  
+  
+        p{
+          font-size: 1.4em;
+        }
+        h2{
+          font-size: 2em
+        }
+      
+        
+      }
+  
+  
+      div:first-child{
+        width: 100%;
+      }
+  
+       
+  
+    }
+  
+    .fifth{
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+      text-align: center;
+      display: flex;
+      width: 100%;
+      height: 100%;
+  
+      div:first-child{
+        width: 100%;
+        height: 350px;
+        margin-top: 70px;
+        margin-right: 100px;
+        text-align: start;
+  
+        p{
+          font-size: 1.4em;
+        }
+        h2{
+          font-size: 2em
+        }
+  
+        
+        
+      }
+  
+  
+      div:last-child{
+        width: 100%;
+      }
+      
+    }
+    .sixth{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      margin-top: 470px;
+      margin-bottom: 470px;
+      gap: 70px;
+  
+      h2{
+        width: 80%;
+        position: static;
+  
+      }
+  
+      div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+       
+      }
+  
+    }
+    .seventh{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      height: 500px;
+      text-overflow: none;
+  
+  
+      h2{
+        width: 80%;
+      }
+      
+      
+      button{
+        margin-top: 10px;
+        width: 90%;
+      }
+  
+      input{
+        width: 90%;
+      }
+      
+    }
+  
+    footer{
+      width: 100%;
+      flex-direction: column;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      height: 300px;
+      gap: 50px;
+  
+      p{
+        width: 100%;
+      }
+  
+      nav{
+        width: 100%;
+      }
+    }
+  
+  
+  }

@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    // margin-top: 10px;
+    top:0px;
+    width: 100%;
+    background: #f8f9fa;
+    z-index: 999;
+    height: 45px;
+    
+    
+  
+    p{
+      font-size: 1.2em;
+    }
+  
+    button {
+      background-color: $bg-color1;
+      color: $color1;
+      padding: 7px;
+      border-radius: 5px;
+      border-color: white;
+      // margin-bottom: 3px;
+      // margin-top: -5px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }

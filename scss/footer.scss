@@ -1,0 +1,52 @@
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .pirmas{
+      display: flex;
+      width: 50%;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .antras{
+      width: 50%;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+  
+    }
+  
+    div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+    }
+  
+    p{
+      opacity: 0.5;
+      margin-top: 15px;
+      margin-left: -40px;
+    }
+  
+    img{
+      width: 30px;
+      height: 30px;
+      
+    }
+    nav{
+      a{
+        color: #007bff;
+        text-decoration: none;
+        
+        margin-left: 20px;
+      }
+    }
+  
+    
+  }

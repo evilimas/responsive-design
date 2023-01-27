@@ -1,0 +1,327 @@
+.first {
+    background: url(../images/bg-masthead.jpg) ;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    h2 {
+      color: $color1;
+      font-size: 2.2em;
+      width: 40%;
+      text-align: center;
+      
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+  
+    button {
+      background-color: $bg-color1;
+      color: $color1;
+      padding: 7px 30px 7px 30px ;
+      border-radius: 6px;
+      border-color: #2889f0;
+      cursor: pointer;
+      margin-left: 3px;
+      font-size: 18px;
+      
+    }
+    input{
+      font-size: 18px;
+      padding: 7px;
+      padding-right: 250px;
+      border-radius: 6px;
+      border-color: none;
+      border-color: white;
+    }
+  }
+  .second {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+   div{
+    width: 20%;
+   }
+    
+    img{
+      width: 70%;
+      height: 80px;
+      justify-content: center;
+    }
+  
+    h3{
+      text-align: center;
+      width: 70%;
+      margin-top: 10px;
+      font-size: 1.5em;
+    }
+    p{
+      width: 70%;
+      text-align: center;
+      opacity: 0.5;
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+  }
+  
+  .third {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color1;
+    
+    
+    
+  
+    div{
+      width: 50%;
+      
+      
+    }
+  
+    img {
+      height: 450px;
+      width: 100%;
+    }
+  
+  
+    h2{
+      width: 65%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex: 1;
+      margin-left: 110px;
+      margin-bottom: 10px;
+      font-size: 1.9em;
+     
+    }
+  
+    p{
+      width: 65%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex: 1;
+      opacity: 0.5;
+      margin-left: 110px;
+      font-size: 1.2em;
+    }
+  }
+  
+  .forth {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color1;
+    flex-direction: row;
+    
+  
+    div{
+      width: 50%;
+      
+      
+    }
+  
+    img {
+      height: 450px;
+      width: 100%;
+    }
+  
+  
+    h2{
+      width: 65%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex: 1;
+      margin-left: 110px;
+      margin-bottom: 10px;
+      font-size: 1.9em;
+     
+    }
+  
+    p{
+      width: 65%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex: 1;
+      opacity: 0.5;
+      margin-left: 110px;
+      font-size: 1.2em;
+      
+    }
+  
+  }
+  
+  .fifth {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color1;
+    
+    
+  
+    div{
+      width: 50%;
+      
+      
+    }
+  
+    img {
+      height: 450px;
+      width: 100%;
+    }
+  
+  
+    h2{
+      width: 65%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex: 1;
+      margin-left: 110px;
+      margin-bottom: 10px;
+      font-size: 1.9em;
+     
+    }
+  
+    p{
+      width: 65%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex: 1;
+      opacity: 0.5;
+      margin-left: 110px;
+      font-size: 1.2em;
+      
+    }
+  }
+  
+  .sixth{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f9fa;
+    position: relative;
+  
+    h2{
+      width: 100%;
+      position: absolute;
+      top: 10%;
+      left: 40%;
+      display: inline;
+      font-size: 1.9em;
+      margin-top: -10px;
+      
+    }
+  
+    img{
+      width: 200px;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      filter: drop-shadow(0 0 0.75rem rgb(114, 114, 114));
+      
+    }
+  
+    div{
+      width: 28%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      
+      
+      
+      
+    }
+    h3{
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 50%;
+      margin-bottom: 10px;
+  
+    }
+  
+    p{
+      width: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      opacity: 0.5;
+    }
+  
+    
+  }
+  
+  .seventh{
+    background: url(../images/bg-masthead.jpg) ;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    h2 {
+      color: $color1;
+      font-size: 2.2em;
+      width: 40%;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+  
+    button {
+      background-color: $bg-color1;
+      color: $color1;
+      padding: 9px 30px 9px 30px ;
+      border-radius: 6px;
+      box-shadow: none;
+      border-color: #2889f0;
+      cursor: pointer;
+      margin-left: 3px;
+      font-size: 18px;
+      
+    }
+    input{
+      font-size: 19px;
+      padding: 7px;
+      padding-right: 250px;
+      border-radius: 6px;
+      border-color: none;
+      border-color: white;
+    }
+  
+  }
