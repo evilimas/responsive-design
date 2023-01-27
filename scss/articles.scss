@@ -11,6 +11,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #1c375e;
+
   
     h2 {
       color: $color1;
@@ -31,6 +33,10 @@
       cursor: pointer;
       margin-left: 3px;
       font-size: 18px;
+
+      &:hover {
+        background: rgb(0, 0, 255);
+      }
       
     }
     input{
@@ -315,6 +321,9 @@
       cursor: pointer;
       margin-left: 3px;
       font-size: 18px;
+      &:hover {
+        background: rgb(0, 0, 255);
+      }
       
     }
     input{

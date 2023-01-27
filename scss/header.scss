@@ -9,7 +9,10 @@ header {
     z-index: 999;
     height: 45px;
     
-    
+    a{
+      text-decoration: none;
+      color: black;
+    }
   
     p{
       font-size: 1.2em;
@@ -26,5 +29,9 @@ header {
       font-size: 15px;
       cursor: pointer;
       border: none;
+
+      &:hover {
+        background: rgb(0, 0, 255);
+      }
     }
   }

@@ -20,6 +20,8 @@ footer{
       gap: 30px;
   
     }
+
+
   
     div{
       display: flex;
@@ -37,14 +39,25 @@ footer{
     img{
       width: 30px;
       height: 30px;
+
       
     }
+    // a img{
+    //   &:hover {
+    //     i
+    //   }
+    // }
+
+
     nav{
       a{
         color: #007bff;
         text-decoration: none;
-        
         margin-left: 20px;
+
+        &:hover {
+          color: rgb(141, 213, 255);
+        }
       }
     }
   
